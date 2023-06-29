@@ -247,6 +247,10 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- my options
+vim.o.relativenumber = true
+
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
@@ -430,6 +434,9 @@ local servers = {
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
+  terraformls = {},
+  tflint = {},
+  yamlls = {},
 
   lua_ls = {
     Lua = {
